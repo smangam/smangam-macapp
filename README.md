@@ -19,20 +19,24 @@ $ ls /root/macapp
 [root@e440centos76 macapp]# ls
 Dockerfile  files  README.md
 ```
-
 ## Step 2: Build the Docker image
-cd to the git repository directory on your local machine
+cd to the git repository directory on your local machine  
+```bash
 $ cd /root/macapp
+```
 Build a Docker image from the Dockerfile. You can give a name to you image using the -t option, as shown below
+```bash
 $ docker build -t="smangam/macapp" .
-
+```
 The above step would have built a docker image called "smangam/macapp"
 
-# Step 3: Run the Docker image (aka execute the Docker container)
+## Step 3: Run the Docker image (aka execute the Docker container)
 Run the container as follows, passing a MAC address as a parameter
 When you run the container, the container takes the MAC address passes as a paramter, and outputs the details about this MAC address.
+```bash
 $ docker run smangam/macapp <mac address>
-  
+```
+
 # Contents of the repository
 The Docker image use alpine as the base image.
 The image has ruby and ruby-json packages installed.
@@ -41,6 +45,9 @@ This program is a consumer of the public API provided by macaddress.io. This API
 The program parses the output, and displays in a user friendly way.
 
 # Security Notes
+This is a demo application. The API Key has been made part of the Dockerfile. This is not a recommended security practice.
+This repository will be deleted soon after the demo is completed.
+
 
 
 
