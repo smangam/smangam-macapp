@@ -53,10 +53,11 @@ Is Valid:        true
 ```
 
 # Contents of the repository
-The Docker image use alpine as the base image.  
+The Docker image uses alpine Linux as the base image.  
 The image has ruby and ruby-json packages installed.  
-The image has the program macapp.rb  
-This program is a consumer of the public API provided by macaddress.io. This API takes a MAC address as input, and provides details about the MAC as a JSON output.  
+The image has the program macapp.rb that is in the files subdirectory.      
+This program is a consumer of the public API provided by macaddress.io.  
+This API takes a MAC address as input, and provides details about the MAC as a JSON output.  
 The program parses the output, and displays in a user friendly way.  
 
 # Security Notes
