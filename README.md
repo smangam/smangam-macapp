@@ -6,16 +6,21 @@ Install Docker on your Linux computer
 
 # Installing on Linux
 
-# Step 1: Clone the git repository
-Clone the git repostiory smangam/macapp to your linux machine in a directory of your choice.
+## Step 1: Clone the git repository
+Clone the git repostiory smangam/macapp to your linux machine in a directory of your choice.  
+
+```bash
 $ cd /root
 $ git clone https://github.com/smangam/macapp.git
+```
 The above step will create a directory called macapp
+```bash
 $ ls /root/macapp
 [root@e440centos76 macapp]# ls
 Dockerfile  files  README.md
+```
 
-# Step 2: Build the Docker image
+## Step 2: Build the Docker image
 cd to the git repository directory on your local machine
 $ cd /root/macapp
 Build a Docker image from the Dockerfile. You can give a name to you image using the -t option, as shown below
