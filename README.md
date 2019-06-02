@@ -38,7 +38,7 @@ $ docker run smangam/macapp <mac address>
 ```
 Example    
 ```bash
-[root@e440centos76 macapp]# docker run smangam/macapp:t1 44:38:39:ff:ef:57
+[root@e440centos76 macapp]# docker run smangam/macapp 44:38:39:ff:ef:57
 MAC Address:     44:38:39:ff:ef:57
 OUI:             443839
 Company:         Cumulus Networks, Inc
