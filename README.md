@@ -31,7 +31,7 @@ $ docker build -t="smangam/macapp" .
 The above step would have built a docker image called "smangam/macapp"
 
 ## Step 3: Run the Docker image (aka execute the Docker container)
-Run the container as follows, passing a MAC address as a parameter
+Run the container as follows, passing a MAC address as a parameter  
 When you run the container, the container takes the MAC address passes as a paramter, and outputs the details about this MAC address.
 ```bash
 $ docker run smangam/macapp <mac address>
