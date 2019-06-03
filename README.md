@@ -1,4 +1,4 @@
-# macapp
+# smangam-macapp
 
 # About smangam-macapp application
 smangam-macapp is a dockerized container.       
