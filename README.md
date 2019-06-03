@@ -1,7 +1,7 @@
 # macapp
 
-# About macapp application
-macapp is a dockerized container.       
+# About smangam-macapp application
+smangam-macapp is a dockerized container.       
 The application displays information (such as owner, company, etc) about a given MAC address  
 The application was built to serve as a demonstration of   
 (a) how to build a Docker container, and  
@@ -17,18 +17,18 @@ Clone the git repostiory smangam/macapp to your linux machine in a directory of 
 
 ```bash
 $ cd /root
-$ git clone https://github.com/smangam/macapp.git
+$ git clone https://github.com/smangam/smangam-macapp.git
 ```
-The above step will create a directory called macapp
+The above step will create a directory called smangam-macapp
 ```bash
-$ ls /root/macapp
+$ ls /root/smangam-macapp
 [root@e440centos76 macapp]# ls
 Dockerfile  files  README.md
 ```
 ## Step 2: Build the Docker image
 cd to the git repository directory on your local machine  
 ```bash
-$ cd /root/macapp
+$ cd /root/smangam-macapp
 ```
 Build a Docker image from the Dockerfile. You can give a name to you image using the -t option, as shown below
 ```bash
@@ -69,8 +69,4 @@ The program parses the output, and displays in a user friendly way.
 # Security Notes
 This is a demo application. The API Key has been made part of the Dockerfile. This is not a recommended security practice.
 This repository will be deleted soon after the demo is completed.  
-
-
-
-
 
