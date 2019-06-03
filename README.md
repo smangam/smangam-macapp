@@ -1,5 +1,11 @@
 # macapp
-Dockerized container to show MAC address details using a REST API
+
+# About macapp application
+macapp is a dockerized container.     
+The application displays information (such as owner, company, etc) about a given MAC address
+The application was built to serve as a demonstration of 
+(a) how to build a Docker container, and  
+(b) how to call a public API via a script written in ruby
 
 # Prerequisites
 Install Docker on your Linux computer
